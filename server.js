@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 mongoose.connect('mongodb://indragunawanrtf:admin@ds247699.mlab.com:47699/nodejs-simple-api', {});
 app.use(bodyParser.json());
 
+// Routes For CRUD Data API
 const product = require('./controllers/vehicle')(app);
 const customer = require('./controllers/customer')(app);
 

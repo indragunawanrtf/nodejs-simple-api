@@ -3,6 +3,15 @@
 Membuat Simple REST API Menggunakan Node JS, Express JS,MongoDB
 ![RESTful API design with Node.js](https://cdn-images-1.medium.com/max/2000/1*jjYC9tuf4C3HkHCP5PcKTA.jpeg "RESTful API design with Node.js")
 
+## Endpoints
+| Method  | Endpoint          | Description                 | Data                  |
+|---------|-------------------|-----------------------------|-----------------------|
+| GET     | api/vehicles      | List of vehicles            | `[{}, {}, {}]`        |
+| GET     | api/vehicles/:id  | View a vehicles             | `{}`                  |
+| POST    | api/vehicles      | Create a new vehicle        | `{"info": ""}`        |
+| PUT     | api/vehicles/:id  | Update a vehicle            | `{"info": ""}`        |
+| DELETE  | api/vehicles/:id  | Delete a vehicle            | `{"info": ""}`        |
+
 ## Penggunaan
 
 ### :one: Clone Repository nodejs-simple-api

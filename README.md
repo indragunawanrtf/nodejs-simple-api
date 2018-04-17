@@ -8,9 +8,9 @@ Membuat Simple REST API Menggunakan Node JS, Express JS,MongoDB
 |---------|-------------------|-----------------------------|-----------------------|
 | GET     | api/vehicles      | List of vehicles            | `[{}, {}, {}]`        |
 | GET     | api/vehicles/:id  | View a vehicles             | `{}`                  |
-| POST    | api/vehicles      | Create a new vehicle        | `{"info": ""}`        |
-| PUT     | api/vehicles/:id  | Update a vehicle            | `{"info": ""}`        |
-| DELETE  | api/vehicles/:id  | Delete a vehicle            | `{"info": ""}`        |
+| POST    | api/vehicles      | Create a new vehicles       | `{"info": ""}`        |
+| PUT     | api/vehicles/:id  | Update a vehicles           | `{"info": ""}`        |
+| DELETE  | api/vehicles/:id  | Delete a vehicles           | `{"info": ""}`        |
 
 ## Penggunaan
 

@@ -4,6 +4,7 @@ const customerSchema = mongoose.Schema({
   name: String,
   no_telp: String,
   service: String,
+  plat_number: String,
   location: String,
   notes: String
 });

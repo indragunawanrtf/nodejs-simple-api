@@ -1,7 +1,6 @@
 const Vehicle = require("../models/vehicle.js");
 
 module.exports = app => {
-  
   // Read API Vehicle
   app.get("/api/vehicles", (req, res) => {
     Vehicle.find()

@@ -8,6 +8,7 @@ mongoose.connect('mongodb://indragunawanrtf:admin@ds247699.mlab.com:47699/nodejs
 app.use(bodyParser.json());
 
 const product = require('./controllers/vehicle')(app);
+const customer = require('./controllers/customer')(app);
 
 app.get('/',  (req,res) => {
   res.send('OK')

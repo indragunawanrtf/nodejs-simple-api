@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-simple-api",
+  "version": "1.0.0",
+  "description": "A Simple Restful API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Indra Gunawan",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
